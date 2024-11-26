@@ -31,9 +31,5 @@ mod day1 {
         }
         return -1;
     }
-        
-    fn input() -> String {
-        String::from("()") // your input goes here
-    }
 }
 
