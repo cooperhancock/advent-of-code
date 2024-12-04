@@ -1,6 +1,6 @@
 #[allow(dead_code)]
 
-mod day2{
+pub mod day2 {
     pub fn part1(s: String) -> i32 {
         s.as_str()
          .split('\n') // split lines

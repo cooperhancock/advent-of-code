@@ -1,6 +1,6 @@
 #[allow(dead_code)]
 
-mod day1{
+pub mod day1{
     pub fn part1(s: String) -> i32 {
         // parse input into 2 lists, one for L, one for R
         let mut left: Vec<i32> = Vec::new();
